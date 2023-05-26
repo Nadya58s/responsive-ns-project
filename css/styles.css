@@ -10,6 +10,7 @@ body {
   margin: 60px auto;
   max-width: 850px;
   background-color: var(--primary-color);
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/01/23/12/laptop-2568545_1280.jpg);
 }
 h1,
 h2,
@@ -129,7 +130,12 @@ img {
 }
 
 .navbar {
-  background: var(--primary-color);
+  height: 140px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
 }
 
 .nav-link {
