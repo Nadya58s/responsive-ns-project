@@ -10,8 +10,10 @@ body {
   margin: 60px auto;
   max-width: 850px;
   background-color: var(--primary-color);
-  background-image: url(https://cdn.pixabay.com/photo/2017/08/01/23/12/laptop-2568545_1280.jpg);
+
+  position: cover;
 }
+
 h1,
 h2,
 h3 {
@@ -35,9 +37,6 @@ h3 {
   opacity: 0.7;
 }
 
-.button-link {
-  text-decoration: none;
-}
 p {
   color: var(--seconary-color);
   padding: 20px;
@@ -49,6 +48,10 @@ p {
 
 img {
   margin-top: 50px;
+}
+
+.button-link {
+  text-decoration: none;
 }
 
 .container-fluid {
@@ -131,11 +134,14 @@ img {
 
 .navbar {
   height: 140px;
-  background-color: transparent;
+
   border: none;
   color: white;
   z-index: 100;
-  transition: background-color 1s ease 0s;
+
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 40px !important;
 }
 
 .nav-link {
@@ -162,6 +168,18 @@ img {
   margin: 20px;
 }
 
+.container nav-awesom {
+  display: flex;
+  justify-content: end;
+}
+
+.flex-contaier {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: space-between;
+}
+
 .btn-branding-outline {
   border-radius: 4px;
   border: 1px solid var(--primary-color);
@@ -181,10 +199,6 @@ img {
 .home-button {
   display: block;
   margin: 0 auto;
-}
-
-.home-button a {
-  text-decoration: none;
 }
 
 .col {
@@ -243,10 +257,6 @@ img {
 
 .contact-page {
   margin-top: 40px;
-}
-
-.nav-awesom {
-  max-width: 114px;
 }
 
 .div.container.nav-awesom {
