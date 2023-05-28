@@ -8,7 +8,7 @@
 
 body {
   margin: 60px auto;
-  max-width: 850px;
+  max-width: 900px;
   background-color: var(--primary-color);
 
   position: cover;
@@ -101,6 +101,9 @@ img {
   display: block;
 }
 
+.home-button:hover {
+  text-decoration: none;
+}
 .about-paragraphs {
   display: flex;
   margin: 43px 0;
@@ -135,7 +138,6 @@ img {
 .navbar {
   height: 140px;
   border: none;
-  color: white;
   z-index: 100;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
