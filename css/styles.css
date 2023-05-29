@@ -220,13 +220,17 @@ footer {
   transition: all 200ms ease;
 }
 
+a.btn-branding-outline:hover {
+  color: var(--primary-color);
+}
+
 .home-button {
   display: block;
   margin: 0 auto;
 }
 
 .col {
-  color: var(var(--seconary-color));
+  color: var(--seconary-color);
   box-shadow: var(--box-shadow);
   margin: 20px 20px;
   border-radius: 10px;
