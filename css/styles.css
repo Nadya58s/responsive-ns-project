@@ -3,7 +3,7 @@
 :root {
   --primary-color: #30334b;
   --seconary-color: #dfc69f;
-  --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.3);
+  --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.2);
 }
 
 body {
@@ -38,7 +38,7 @@ h3 {
 }
 
 h4 {
-  font-size: 48px;
+  font-size: 50px;
 }
 p {
   color: var(--seconary-color);
@@ -51,6 +51,11 @@ p {
 
 img {
   margin-top: 50px;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
 }
 
 .button-link {
@@ -93,6 +98,7 @@ img {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
 .about-link {
   border: 1px solid var(--seconary-color);
   color: var(--seconary-color);
@@ -107,6 +113,7 @@ img {
 .home-button:hover {
   text-decoration: none;
 }
+
 .about-paragraphs {
   display: flex;
   margin: 43px 0;
@@ -224,6 +231,9 @@ img {
   margin: 20px 20px;
   border-radius: 10px;
 }
+.computer-photo {
+  border-radius: 10px;
+}
 
 .forecast-app {
   background: none;
@@ -243,6 +253,15 @@ img {
   padding: 5px;
   box-shadow: var(--seconary-color);
   display: inline;
+}
+
+a.project-link {
+  text-decoration: none;
+}
+
+.project-link a:hover {
+  color: var(--seconary-color);
+  border: 1px solid var(--seconary-color);
 }
 
 .about-project {
@@ -301,6 +320,14 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.btn-branding-outline {
+  text-decoration: none;
+}
+
+.btn-branding-outline:hover {
+  color: var(--seconary-color);
+}
+
 .work-inquiry-link {
   display: block;
   margin: 0 auto;
@@ -319,6 +346,13 @@ footer .email-link:hover {
   text-decoration: none;
 }
 
+footer .contact-box {
+  box-shadow: var(--box-shadow);
+  padding: 30px 120px;
+  max-width: auto;
+  border-radius: 10px;
+}
+
 .open-source a {
   color: var(--seconary-color);
   text-decoration: none;
@@ -329,9 +363,6 @@ footer .email-link:hover {
   text-decoration: none;
 }
 
-footer .contact-box {
-  box-shadow: var(--box-shadow);
-  padding: 30px 120px;
-  max-width: auto;
-  border-radius: 10px;
+.about-journey {
+  line-height: 30px;
 }
