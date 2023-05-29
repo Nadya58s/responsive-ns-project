@@ -37,6 +37,9 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  font-size: 48px;
+}
 p {
   color: var(--seconary-color);
   padding: 20px;
@@ -138,6 +141,7 @@ img {
 .navbar {
   height: 140px;
   border: none;
+  background: var(--primary-color);
   z-index: 100;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -149,14 +153,12 @@ img {
   justify-content: space-between;
 }
 
-.nav-owesom {
+.nav-awesom {
   max-width: 114;
   display: flex;
   flex-direction: row;
-}
-
-.nav-owesom {
   margin: 0px;
+  text-decoration: none;
 }
 
 .nav-link {
@@ -164,7 +166,7 @@ img {
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
   padding-top: 10px;
   margin-bottom: 10px;
 }
@@ -220,6 +222,7 @@ img {
   color: var(var(--seconary-color));
   box-shadow: var(--box-shadow);
   margin: 20px 20px;
+  border-radius: 10px;
 }
 
 .forecast-app {
@@ -274,6 +277,61 @@ img {
   margin-top: 40px;
 }
 
+.contact-box {
+  color: var(--seconary-color);
+}
+
 .div.container.nav-awesom {
   max-width: 200px;
+}
+
+.work-withme {
+  background-color: var(--primary-color);
+  border: 1px solid var(--seconary-color);
+  margin: 0 15px;
+}
+
+.button-link {
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  background: var(--seconary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.work-inquiry-link {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+footer .email-link {
+  color: var(--seconary-color);
+  max-width: 800px;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.open-source a {
+  color: var(--seconary-color);
+  text-decoration: none;
+}
+
+.open-source a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer .contact-box {
+  box-shadow: var(--box-shadow);
+  padding: 30px 120px;
+  max-width: auto;
+  border-radius: 10px;
 }
