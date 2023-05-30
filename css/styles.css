@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #30334b;
-  --seconary-color: #dfc69f;
+  --secondary-color: #dfc69f;
   --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.2);
 }
 
@@ -10,7 +10,6 @@ body {
   margin: 60px auto;
   max-width: 900px;
   background-color: var(--primary-color);
-
   position: cover;
 }
 
@@ -19,7 +18,7 @@ h2,
 h3 {
   text-align: center;
 
-  color: var(--seconary-color);
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -41,7 +40,7 @@ h4 {
   font-size: 50px;
 }
 p {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 16px;
@@ -60,6 +59,7 @@ footer {
 
 .button-link {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .container-fluid {
@@ -85,7 +85,7 @@ footer {
   color: white;
 }
 .contact-link {
-  background: var(--seconary-color);
+  background: var(--secondary-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
@@ -100,8 +100,8 @@ footer {
 }
 
 .about-link {
-  border: 1px solid var(--seconary-color);
-  color: var(--seconary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -169,7 +169,7 @@ footer {
 }
 
 .nav-link {
-  color: var(--seconary-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 .nav-link:hover {
@@ -206,8 +206,7 @@ footer {
 
 .btn-branding-outline {
   border-radius: 4px;
-  border: 1px solid var(--primary-color);
-  background: var(--seconary-color);
+  background: var(--secondary-color);
   color: var(--primary-color);
   display: block;
   margin: 60px 20px;
@@ -220,17 +219,16 @@ footer {
   transition: all 200ms ease;
 }
 
-a.btn-branding-outline:hover {
-  color: var(--primary-color);
-}
-
 .home-button {
   display: block;
   margin: 0 auto;
 }
 
+.home-button a:hover {
+  border: 1px solid var(--secondary-color);
+}
 .col {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   box-shadow: var(--box-shadow);
   margin: 20px 20px;
   border-radius: 10px;
@@ -255,7 +253,7 @@ a.btn-branding-outline:hover {
 
 .icon {
   padding: 5px;
-  box-shadow: var(--seconary-color);
+  box-shadow: var(--secondary-color);
   display: inline;
 }
 
@@ -264,8 +262,8 @@ a.project-link {
 }
 
 .project-link a:hover {
-  color: var(--seconary-color);
-  border: 1px solid var(--seconary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .about-project {
@@ -273,7 +271,7 @@ a.project-link {
 }
 
 .about-me {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -301,7 +299,7 @@ a.project-link {
 }
 
 .contact-box {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
 }
 
 .div.container.nav-awesom {
@@ -310,7 +308,7 @@ a.project-link {
 
 .work-withme {
   background-color: var(--primary-color);
-  border: 1px solid var(--seconary-color);
+  border: 1px solid var(--secondary-color);
   margin: 0 15px;
 }
 
@@ -319,17 +317,19 @@ a.project-link {
   padding: 20px 15px;
   text-transform: capitalize;
   text-decoration: none;
-  background: var(--seconary-color);
+  background: var(--secondary-color);
   color: white;
   box-shadow: var(--box-shadow);
 }
 
 .btn-branding-outline {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .btn-branding-outline:hover {
-  color: var(--seconary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .work-inquiry-link {
@@ -339,7 +339,7 @@ a.project-link {
 }
 
 footer .email-link {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   max-width: 800px;
   font-size: 24px;
   text-align: center;
@@ -358,7 +358,7 @@ footer .contact-box {
 }
 
 .open-source a {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
