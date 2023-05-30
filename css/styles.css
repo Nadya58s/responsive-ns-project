@@ -219,13 +219,18 @@ footer {
   transition: all 200ms ease;
 }
 
+.btn-branding-outline .home-button {
+  display: block;
+  margin: 0 auto;
+}
+
 .home-button {
   display: block;
   margin: 0 auto;
 }
 
-.home-button a:hover {
-  border: 1px solid var(--secondary-color);
+.home-button:hover {
+  background-color: aliceblue;
 }
 .col {
   color: var(--secondary-color);
