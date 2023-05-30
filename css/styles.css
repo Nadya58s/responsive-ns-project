@@ -401,3 +401,125 @@ footer .col {
 .about-journey {
   line-height: 30px;
 }
+
+@media (max-width: 900px) {
+
+  h1 {
+ font-size: 40px;
+ line-height: 10px;
+
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  h3 {
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+h4{
+    font-size: 30px;
+}
+
+h4 .work {
+  font-size: 10px;
+ 
+}
+
+  .home-button {
+    margin-bottom: 30px;
+  }
+
+  #projects {
+    display: none;
+  }
+
+  a.btn.btn-branding-outline{
+    font-size: 10px;
+  }
+
+ .navbar {
+  margin-bottom: 30px;
+
+}
+
+logo {
+    max-width: 10px;
+}
+
+
+.navbar ul{
+ width: 15px;
+  height: 30px;
+}
+
+.nav-awesom { /* need to add it in the bottom*/
+  display: none;
+}
+#navbarNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-collapse a {
+    margin: 10px;
+
+}
+}
+
+/**
+
+
+.nav-awesom {
+  max-width: 114;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 130px;
+}
+
+.navbar-collapse {
+  margin: 5px;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  padding: 90px 10px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse a {
+  margin: 20px;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 2px;
+  box-shadow: var(--secondary-color);
+  display: inline;
+}
+
+.icon:hover {
+  background-color: var(--primary-color);
+}
