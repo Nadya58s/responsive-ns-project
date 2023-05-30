@@ -80,6 +80,29 @@ footer {
   text-decoration: none;
 }
 
+.logo {
+  max-width: 130px;
+}
+
+.navbar-collapse {
+  margin: 5px;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  padding: 90px 10px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse a {
+  margin: 20px;
+}
+
 .nav-link {
   color: var(--secondary-color) !important;
 }
@@ -88,6 +111,16 @@ footer {
   text-decoration: none;
   padding-top: 10px;
   margin-bottom: 10px;
+}
+
+.icon {
+  padding: 2px;
+  box-shadow: var(--secondary-color);
+  display: inline;
+}
+
+.icon:hover {
+  background-color: var(--primary-color);
 }
 .button-link {
   text-decoration: none;
@@ -210,29 +243,6 @@ a.btn.btn-branding-outline:hover {
   text-transform: none;
 }
 
-.logo {
-  max-width: 130px;
-}
-
-.navbar-collapse {
-  margin: 5px;
-  text-align: center;
-}
-
-.intro {
-  text-align: center;
-  padding: 90px 10px;
-}
-
-.navbar-collapse {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar-collapse a {
-  margin: 20px;
-}
-
 .container nav-awesom {
   display: flex;
   justify-content: end;
@@ -267,12 +277,6 @@ a.btn.btn-branding-outline:hover {
 .container {
   display: flex;
   justify-content: space-evenly;
-}
-
-.icon {
-  padding: 5px;
-  box-shadow: var(--secondary-color);
-  display: inline;
 }
 
 a.project-link {
@@ -370,9 +374,18 @@ footer .email-link:hover {
 
 footer .contact-box {
   box-shadow: var(--box-shadow);
-  padding: 30px 120px;
-  max-width: auto;
+  padding: 30px 100px;
+  max-width: 900px;
   border-radius: 10px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .col {
+  max-width: 900px;
 }
 
 .open-source a {
