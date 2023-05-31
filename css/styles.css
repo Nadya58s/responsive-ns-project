@@ -421,6 +421,10 @@ footer .col {
     font-size: 10px;
   }
 
+  logo {
+    max-width: 10px;
+  }
+
   .home-button {
     margin-bottom: 30px;
   }
@@ -429,16 +433,16 @@ footer .col {
     display: none;
   }
 
+  .btn.btn-branding-outline {
+    margin-bottom: 10px;
+  }
+
   a.btn.btn-branding-outline {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .navbar {
     margin-bottom: 30px;
-  }
-
-  logo {
-    max-width: 10px;
   }
 
   .navbar-collapse a {
