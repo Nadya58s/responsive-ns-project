@@ -17,6 +17,7 @@ h1,
 h2,
 h3 {
   text-align: center;
+
   color: var(--secondary-color);
 }
 
@@ -27,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -75,6 +76,15 @@ footer {
   text-decoration: none;
 }
 
+.logo {
+  max-width: 130px;
+}
+
+.intro {
+  text-align: center;
+  padding: 90px 10px;
+}
+
 .navbar-collapse a {
   margin: 20px;
 }
@@ -87,6 +97,25 @@ footer {
   text-decoration: none;
   padding-top: 10px;
   margin-bottom: 10px;
+}
+
+.icon {
+  padding: 2px;
+  box-shadow: var(--secondary-color);
+  display: inline;
+}
+
+.icon:hover {
+  background-color: var(--primary-color);
+}
+
+.button-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.container-fluid {
+  margin-top: -50px;
 }
 
 .navigations-links {
@@ -108,32 +137,24 @@ footer {
   color: white;
 }
 
-.logo {
-  max-width: 130px;
-}
-
-.icon {
-  padding: 2px;
-  box-shadow: var(--secondary-color);
-  display: inline;
-}
-
-.icon:hover {
-  background-color: var(--primary-color);
-}
-
-.intro {
-  text-align: center;
-  padding: 90px 10px;
-}
-
-.button-link {
-  text-decoration: none;
+.contact-link {
+  background: var(--secondary-color);
   color: var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 
-.container-fluid {
-  margin-top: -50px;
+.contact-link a {
+  margin: 30px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-link {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -142,16 +163,7 @@ footer {
   display: block;
 }
 
-.home-button {
-  display: block;
-  margin: 0 auto;
-  color: var(--primary-color);
-}
-
 .home-button:hover {
-  background-color: var(--primary-color);
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -159,9 +171,9 @@ footer {
   border-radius: 4px;
   background: var(--secondary-color);
   color: var(--primary-color);
-  line-height: 35px;
   display: block;
-  margin: 0 auto;
+  margin: 60px 20px;
+  line-height: 22px;
   padding: 16px 24px;
   text-decoration: none;
   box-shadow: var(--box-shadow);
@@ -181,12 +193,19 @@ a.btn.btn-branding-outline:hover {
   margin: 0 auto;
 }
 
-.btn-branding-outline.home-button:hover {
+.home-button {
+  display: block;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+
+.home-button:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
 }
 
-.about-link {
-  border: 1px solid var(--secondary-color);
+.btn-branding-outline.home-button:hover {
   color: var(--secondary-color);
 }
 
@@ -210,6 +229,11 @@ a.btn.btn-branding-outline:hover {
 .email-link:hover {
   text-decoration: underline;
   text-transform: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .container nav-awesom {
@@ -242,11 +266,6 @@ a.btn.btn-branding-outline:hover {
 
 .theme-change {
   margin-bottom: 30px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 a.project-link {
@@ -294,28 +313,6 @@ a.project-link {
   color: var(--secondary-color);
 }
 
-.contact-call {
-  display: block;
-  margin: 60px 10px 30px;
-}
-.contact-link {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  box-shadow: var(--box-shadow);
-}
-
-.contact-link a {
-  margin: 30px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-
-div.container.book-consultation {
-  margin-right: 30px;
-}
 .div.container.nav-awesom {
   max-width: 200px;
 }
@@ -394,87 +391,128 @@ footer .col {
   line-height: 30px;
 }
 
-.time {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 10px;
   }
 
   h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-  }
-
-  h2.mt-5 {
-    font-size: 35px;
+    font-size: 25px;
+    margin-top: 30px;
   }
 
   h3 {
-    font-size: 18px;
-  }
-
-  h3.mt-5 {
-    line-height: 5px;
+    font-size: 25px;
+    line-height: 50px;
   }
 
   h4 {
-    font-size: 35px;
-    text-align: center;
+    font-size: 30px;
   }
 
   h4 .work {
     font-size: 10px;
   }
 
-  logo {
-    max-width: 10px;
+  .home-button {
+    margin-bottom: 30px;
   }
 
   .navbar-collapse {
-    background-color: var(--primary-color);
-  }
-
-  .home-button {
-    margin-bottom: 30px;
+    background-color: black;
   }
 
   #projects {
     display: none;
   }
 
-  .btn.btn-branding-outline {
-    margin: 10px 40px 40px;
-  }
-
   a.btn.btn-branding-outline {
-    padding: 5px 30px;
+    font-size: 20px;
   }
 
   .navbar {
     margin-bottom: 30px;
   }
 
+  logo {
+    max-width: 10px;
+  }
+
   .navbar-collapse a {
     margin: 10px;
   }
 
-  div.contact-box.d-flex.justify-content-between.mb-5 {
-    padding: 10px 20px;
-  }
-
-  .img-fluid {
-    margin: 15px;
-    width: 300px;
+  .btn.btn-branding-outline.contact-me {
+    font-size: 15px;
+    padding-left: 20px;
+    margin: 20px 10px;
   }
 }
 
-@media (min-width: 900px) {
+/**
+
+
+.nav-awesom {
+  max-width: 114;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 130px;
+}
+
+.navbar-collapse {
+  margin: 5px;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  padding: 90px 10px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse a {
+  margin: 20px;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 2px;
+  box-shadow: var(--secondary-color);
+  display: inline;
+}
+
+.icon:hover {
+  background-color: var(--primary-color);
+}
+*/
+@media (min-width: 390px) {
+  .work {
+    font-size: 20px;
+  }
+
+  .work-together {
+    font-size: 10px;
+  }
+
   #navbarNav {
     display: flex;
     justify-content: space-between;
@@ -490,5 +528,8 @@ footer .col {
   .navbar ul {
     width: 15px;
     height: 30px;
+  }
+  .clock-ap {
+    display: none;
   }
 }
