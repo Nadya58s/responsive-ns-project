@@ -316,9 +316,10 @@ a.btn.btn-branding-outline:hover {
   color: var(--secondary-color);
 }
 
-.btn-branding-outline .home-button {
+.btn.btn-branding-outline.home-button {
   display: block;
   margin: 0 auto;
+  padding-bottom: 25px;
 }
 
 .btn-branding-outline.home-button:hover {
@@ -451,8 +452,7 @@ footer .col {
   }
 
   a.btn.btn-branding-outline.nadia-s {
-    padding: 10px 30px;
-    margin: 10px 20px;
+    margin: 0;
   }
   .work-together {
     font-size: 10px;
