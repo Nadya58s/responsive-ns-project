@@ -68,6 +68,27 @@ footer {
   min-height: 40px !important;
 }
 
+.navigations-links a {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
+}
+
+.navigations-links a:hover {
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
 .nav-awesom {
   max-width: 114;
   flex-direction: row;
@@ -77,17 +98,6 @@ footer {
 
 .logo {
   max-width: 130px;
-}
-
-.intro {
-  text-align: center;
-  padding: 90px 10px;
-}
-
-.nav-link:hover {
-  text-decoration: none;
-  padding-top: 10px;
-  margin-bottom: 10px;
 }
 
 .icon {
@@ -101,8 +111,9 @@ footer {
   background-color: var(--primary-color);
 }
 
-.nav-link {
-  color: var(--secondary-color) !important;
+.intro {
+  text-align: center;
+  padding: 90px 10px;
 }
 
 .button-link {
@@ -119,18 +130,6 @@ footer {
   justify-content: center;
   margin-top: 40px;
   column-gap: 10%;
-}
-
-.navigations-links a {
-  margin: 10px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.navigations-links a:hover {
-  color: white;
 }
 
 .contact-link {
@@ -159,36 +158,6 @@ footer {
   display: block;
 }
 
-.home-button:hover {
-  text-decoration: none;
-}
-
-.btn-branding-outline {
-  border-radius: 4px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  display: block;
-  margin: 60px 20px;
-  line-height: 22px;
-  padding: 16px 24px;
-  text-decoration: none;
-  box-shadow: var(--box-shadow);
-  font-size: 18px;
-  font-weight: bold;
-  transition: all 200ms ease;
-}
-
-a.btn.btn-branding-outline:hover {
-  background-color: var(--primary-color);
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
-}
-
-.btn-branding-outline .home-button {
-  display: block;
-  margin: 0 auto;
-}
-
 .home-button {
   display: block;
   margin: 0 auto;
@@ -199,10 +168,7 @@ a.btn.btn-branding-outline:hover {
   background-color: var(--primary-color);
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
-}
-
-.btn-branding-outline.home-button:hover {
-  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .about-paragraphs {
@@ -330,6 +296,36 @@ a.project-link {
 }
 
 .btn-branding-outline {
+  border-radius: 4px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  display: block;
+  margin: 60px 20px;
+  line-height: 22px;
+  padding: 16px 24px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 200ms ease;
+}
+
+a.btn.btn-branding-outline:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-branding-outline .home-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-branding-outline.home-button:hover {
+  color: var(--secondary-color);
+}
+
+.btn-branding-outline {
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -343,6 +339,15 @@ a.project-link {
   display: block;
   margin: 0 auto;
   width: fit-content;
+}
+
+.open-source a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.about-journey {
+  line-height: 30px;
 }
 
 footer .email-link {
@@ -373,20 +378,6 @@ footer .col {
   max-width: 900px;
 }
 
-.open-source a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-
-.open-source a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.about-journey {
-  line-height: 30px;
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
@@ -403,6 +394,11 @@ footer .col {
     line-height: 50px;
   }
 
+  h3.mt-5 {
+    font-size: 40px;
+    opacity: 10;
+  }
+
   h4 {
     font-size: 30px;
   }
@@ -411,12 +407,24 @@ footer .col {
     font-size: 10px;
   }
 
+  logo {
+    max-width: 10px;
+  }
+
   .home-button {
     margin-bottom: 30px;
   }
 
   .navbar-collapse {
     background-color: black;
+  }
+
+  .navbar-collapse a {
+    margin: 20px;
+  }
+
+  .navbar-collapse a {
+    margin: 5px;
   }
 
   #projects {
@@ -431,25 +439,10 @@ footer .col {
     margin-bottom: 30px;
   }
 
-  logo {
-    max-width: 10px;
-  }
-
-  .navbar-collapse a {
-    margin: 20px;
-  }
-
-  .navbar-collapse a {
-    margin: 5px;
-  }
-
   .btn.btn-branding-outline.contact-me {
     font-size: 15px;
     padding-left: 20px;
     margin: 20px 10px;
-  }
-  .work-together {
-    font-size: 10px;
   }
 
   a.btn.btn-branding-outline.contact-me {
@@ -461,15 +454,14 @@ footer .col {
     padding: 10px 30px;
     margin: 10px 20px;
   }
+  .work-together {
+    font-size: 10px;
+  }
 
   div.contact-box.d-flex.justify-content-between.mb-5 {
     padding: 20px 15px;
   }
 
-  h3.mt-5 {
-    font-size: 40px;
-    opacity: 10;
-  }
   .img-fluid.call-me {
     width: 30%;
     margin: auto;
