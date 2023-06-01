@@ -379,6 +379,9 @@ footer .col {
   max-width: 900px;
 }
 
+.open-source:hover {
+  color: white;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
