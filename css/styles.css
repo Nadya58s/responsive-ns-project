@@ -85,10 +85,6 @@ footer {
   padding: 90px 10px;
 }
 
-.navbar-collapse a {
-  margin: 20px;
-}
-
 .nav-link {
   color: var(--secondary-color) !important;
 }
@@ -440,7 +436,11 @@ footer .col {
   }
 
   .navbar-collapse a {
-    margin: 10px;
+    margin: 20px;
+  }
+
+  .navbar-collapse a {
+    margin: 5px;
   }
 
   .btn.btn-branding-outline.contact-me {
@@ -448,71 +448,21 @@ footer .col {
     padding-left: 20px;
     margin: 20px 10px;
   }
-}
-
-/**
-
-
-.nav-awesom {
-  max-width: 114;
-  display: flex;
-  flex-direction: row;
-  margin: 0px;
-  text-decoration: none;
-}
-
-.logo {
-  max-width: 130px;
-}
-
-.navbar-collapse {
-  margin: 5px;
-  text-align: center;
-}
-
-.intro {
-  text-align: center;
-  padding: 90px 10px;
-}
-
-.navbar-collapse {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar-collapse a {
-  margin: 20px;
-}
-
-.nav-link {
-  color: var(--secondary-color) !important;
-}
-
-.nav-link:hover {
-  text-decoration: none;
-  padding-top: 10px;
-  margin-bottom: 10px;
-}
-
-.icon {
-  padding: 2px;
-  box-shadow: var(--secondary-color);
-  display: inline;
-}
-
-.icon:hover {
-  background-color: var(--primary-color);
-}
-*/
-@media (min-width: 390px) {
-  .work {
-    font-size: 20px;
-  }
-
   .work-together {
     font-size: 10px;
   }
 
+  a.btn.btn-branding-outline.contact-me {
+    padding: 10px 5px;
+    margin: 0 10px 20px;
+  }
+
+  div.contact-box.d-flex.justify-content-between.mb-5 {
+    padding: 20px 15px;
+  }
+}
+
+@media (min-width: 900px) {
   #navbarNav {
     display: flex;
     justify-content: space-between;
@@ -528,8 +478,5 @@ footer .col {
   .navbar ul {
     width: 15px;
     height: 30px;
-  }
-  .clock-ap {
-    display: none;
   }
 }
